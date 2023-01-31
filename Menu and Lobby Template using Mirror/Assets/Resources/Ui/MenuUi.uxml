@@ -7,11 +7,11 @@
             <ui:Button text="Quit" display-tooltip-when-elided="true" name="quitButton" class="button" style="background-color: rgb(171, 101, 101);" />
         </ui:GroupBox>
         <ui:GroupBox name="AssignNameGroup" class="center" style="top: 10%;">
-            <ui:TextField text="enter Username here" name="NameTextField" is-delayed="true" max-length="20" class="textField textFields" style="overflow: hidden;" />
+            <ui:TextField text="enter Username here" name="nameTextField" is-delayed="true" max-length="20" class="textField textFields" style="overflow: hidden;" />
         </ui:GroupBox>
         <ui:GroupBox name="joinGameGroup" class="center" style="top: 40%; visibility: hidden;">
             <ui:Label text="Address:  " display-tooltip-when-elided="true" name="AddressLabel" />
-            <ui:TextField text="localhost" name="TextField" max-length="10" class="textFields" />
+            <ui:TextField text="localhost" name="adressTextField" max-length="10" class="textFields" />
             <ui:Button text="Join Game" display-tooltip-when-elided="true" name="joinGameButton" class="button" />
         </ui:GroupBox>
     </ui:VisualElement>
